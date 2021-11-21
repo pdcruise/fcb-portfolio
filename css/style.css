@@ -1,27 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat:wght@600&family=Roboto&display=swap');
 
 h1	{
-
 	font-family: 'Estonia', cursive;
 	font-size: 72px;
-
 }
 
 h2 {
-
 	font-family: 'Montserrat', sans-serif;
-
+	color: #007bff; /*Blue*/
 }
 
 *	{
-
 	font-family: 'Roboto', sans-serif;
-
 }
 
 img {
-
 	width: 250px;
 	border-radius: 50%;
+}
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#landing,
+#gallery {
+	height: 80vh;
+	/* center the content vertically using flexbox */
+  	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+  	justify-content: center;
+  	border-radius: 5px;
+}
+
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2; /*light grey*/
+	margin: 25px;
+	width: 75%;
 }
